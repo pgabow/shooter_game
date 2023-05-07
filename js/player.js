@@ -32,7 +32,7 @@ export class Player {
     document.addEventListener("keyup", (event) => this.keyMap.delete(event.code));
 
     this.image = new Image();
-    this.image.src = "img/player.png";
+    this.image.src = '../img/player.png'
     this.imageWidth = 50;
     this.imageHeight = 60;
     this.isMoving = false;

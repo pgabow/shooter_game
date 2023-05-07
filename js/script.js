@@ -3,14 +3,14 @@ import { Projectile } from './projectile.js'
 import { Enemy } from './enemy.js'
 import { distanceBetweenTwoPoints } from './utilities.js'
 
-const music = new Audio(),
-  sound = new Audio(),
-  sound2 = new Audio(),
-  sound3 = new Audio()
-music.src = 'sound/music.mp3'
-sound.src = 'sound/sound.mp3'
-sound2.src = 'sound/sound2.mp3'
-sound3.src = 'sound/sound3.mp3'
+const music = new Audio()
+const sound = new Audio()
+const sound2 = new Audio()
+const sound3 = new Audio()
+music.src = '../sound/music.mp3'
+sound.src = '../sound/sound.mp3'
+sound2.src = '../sound/sound2.mp3'
+sound3.src = '../sound/sound3.mp3'
 
 const canvas = document.querySelector('canvas')
 const context = canvas.getContext('2d')

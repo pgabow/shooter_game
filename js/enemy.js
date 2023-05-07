@@ -19,7 +19,7 @@ export class Enemy {
     const enemyType = Math.random() > 0.8 ? 2 : 1;
     this.health = enemyType;
     this.image = new Image();
-    this.image.src = `img/enemy_${enemyType}.png`;
+    this.image.src = `../img/enemy_${enemyType}.png`
     this.imageWidth = 50;
     this.imageHeight = 60;
     this.imageTick = 0;
